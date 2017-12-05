@@ -1,0 +1,146 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #E0E0E0;
+    }
+    /*icon css */
+    .icon img {
+    	width: 40px;
+    	height: 40px;
+    	margin-left: 2%;
+    	border-radius: 5px;
+    	opacity: .9;
+    }
+
+    .icon a {
+    	color: black;
+    	display: inline;
+    	font-family: 'Spectral SC', serif;
+    	margin-left: 10%;
+    	padding-bottom: 25px;
+    	text-decoration: none;
+    }
+
+#navigation {
+	background-image: url("../img/piano.jpg");
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 800px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#navigation h1  {
+	font-size: 50px;
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+	padding: 225px;
+	margin-bottom: : 60px;
+	margin-top: 0;
+	text-align: center;
+}
+
+#navigation h3  {
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+/*main*/
+.main {
+font-family: 'Spectral SC', serif;
+margin-top: 25px;
+text-align: center;
+}
+
+.main p {
+	font-family: verdana;
+    text-shadow: 0.5px 0.5px 2px #595959;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.main hr { 
+	border-color: gold;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/*light */
+ .light {
+	margin-left:100px;
+}
+
+.light img{
+	border: 1px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: inline-block;
+    margin: 35px;
+    width: 25%;
+    text-align: center;
+}
+
+.footer {
+    background-color: #f6f9f9;
+    padding: 10px;
+    height: 50px;
+    padding-left: 50px;
+}
+
+    .footer p {
+    float: left;
+    margin-left: 75px;
+}
+
+p {
+    display: block;
+}
+
+#socialMedia {
+    float: right;
+    margin: 20px 75px 0 0;
+}
+
+#socialMedia a {
+    border-radius: 2px;
+    background-color: #15a4fa;
+    color: white;
+    margin: 5px;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+div {
+    display: block;
+}
+
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+    }
+
+    .fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-linkedin:before {
+    content: "\f0e1";
+    }
+
+    .fa-google-plus:before {
+    content: "\f0d5";
+}
